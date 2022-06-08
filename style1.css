@@ -1,0 +1,83 @@
+
+.packages .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2px;
+    padding:20px 10px;
+  }
+  
+  .packages .box-container .box{
+    flex:1 1 40px;
+    border-radius: .5px;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    border-radius: 5%;
+    padding-right: 15px;
+  }
+  
+  .packages .box-container .box img{
+    height: 20rem;
+    width:100%;
+    object-fit: cover;
+  }
+  
+  .packages .box-container .box .content{
+    padding:5px;
+  }
+  
+  .packages .box-container .box .content h3{
+    font-size:15px;
+    text-transform: uppercase;
+    color:rgb(43, 2, 2);
+    text-align: center;
+  }
+  
+  .packages .box-container .box .content h3 img{
+    color:var(--orange);
+  }
+  
+  .packages .box-container .box .content p{
+    font-size:15px;
+    color:rgb(24, 5, 77);
+    text-align: center;
+  }
+  
+  .packages .box-container .box .content img{
+    font-size:10px;
+    color:var(--orange);
+  }
+  
+  .packages .box-container .box .content .price{
+    font-size: 15px;
+    color:rgb(22, 5, 5);
+    padding-top: 5px;
+  }
+  
+.packages .box-container .box .content .price span{
+    color:rgb(43, 15, 15);
+    font-size: 15px;
+    text-decoration: line-through;
+}
+.content .btn{
+  align-items: center;
+  text-transform: uppercase;
+  display: inline-block;
+  background: linear-gradient(45deg, #04070c, rgb(48, 134, 247));
+  border-radius: 6px;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: rgb(246, 247, 250);
+  box-shadow: 4px 8px 22px rgba(70, 53, 97, 0.15);
+}
+  .heading{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2.5rem 0;
+}
+.heading span{
+    font-size: 3.5rem;
+    background-color: rgba(0, 225, 255, 0.61);
+    color: white;
+    border-radius: 5rem;
+    padding: 2rem 1rem;
+}
